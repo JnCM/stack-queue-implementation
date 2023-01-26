@@ -21,7 +21,7 @@ class Node:
         
         return self.__next_node
     
-    def set_next_node(self, newNode):
+    def set_next_node(self, new_node):
         """Sets the next node.
         
         Parameters
@@ -29,4 +29,4 @@ class Node:
         - newNode (Node): The new next node.
         """
         
-        self.__next_node = newNode
+        self.__next_node = new_node
